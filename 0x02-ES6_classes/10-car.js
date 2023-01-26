@@ -18,7 +18,7 @@ export default class Car {
   }
 
   cloneCar() {
-    const NewCar = this.constructor || [Symbol.species];
-    return new NewCar();
+    const LastestCar = this.constructor || [Symbol.species];
+    return new LastestCar();
   }
 }
